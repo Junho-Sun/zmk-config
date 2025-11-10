@@ -8,8 +8,8 @@
 
         default_layer {
             bindings = <
-                &kp ESC     &kp Q        &kp W        &kp E        &kp R
-                &kp T       &kp Y        &kp U        &kp I        &kp O
+                &kp Q       &kp W        &kp E        &kp R        &kp T
+                &kp Y       &kp U        &kp I        &kp O        &kp P
 
                 &kp A       &kp S        &kp D        &kp F        &kp G
                 &kp H       &kp J        &kp K        &kp L        &kp ENTER
@@ -23,11 +23,11 @@
 
         bt_layer {
             bindings = <
-                &bt BT_SEL 0       &bt BT_CLR        &bootloader        &none        &none
+                &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_CLR    &bootloader
                 &none       &none        &none        &none        &none
 
-                &none       &none        &none        &none        &none
-                &none       &none        &none        &none        &none
+                &kp 1       &kp 2        &kp 3        &kp 4        &kp 5
+                &kp 6       &kp 7        &kp 8        &kp 9        &kp 0
 
                 &none       &none        &none        &none        &none
                 &none       &none        &none        &none        &none       
