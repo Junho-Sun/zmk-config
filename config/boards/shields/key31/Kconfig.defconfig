@@ -1,0 +1,6 @@
+if SHIELD_KEY31
+
+config ZMK_BOARD_NAME
+    default "key31"
+
+endif
